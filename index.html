@@ -14,16 +14,16 @@
         <!-- Import Bootstrap 3 framework -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!-- Local main style link -->
-        <link rel="stylesheet" href="css/srp.css"/>
+        <link rel="stylesheet" type="text/css" href="css/srp.css"/>
         <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet"> 
         <!-- Automated styles via maxcdn and for jquery scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body>
 
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
 
@@ -36,15 +36,16 @@
                     <!-- Collapse filter used for smaller resolutions -->
 
                     <!-- My brand header -->
-                    <a class="navbar-brand" href="https://srpvno.github.io/project/" style="font-size:45px;font-family:'Nanum Pen Script', cursive;">vno project</a>
+                    <a class="navbar-brand" href="https://srpvno.github.io/project/" style="font-size:45px;
+                    font-family:'Nanum Pen Script', cursive;">vno project</a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="myNavbar">
                     <ul class="nav navbar-nav">
-                       <!-- <li>
-                        <input class="form-control" id="theInput" type="text" placeholder="Search...">
-                        </li> -->
+                        <!-- <li>
+<input class="form-control" id="theInput" type="text" placeholder="Search...">
+</li> -->
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size:16px;">365x <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size:18px">365x <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#test1">test 1</a></li>
                                 <li><a href="#test2">test 2</a></li>
@@ -52,7 +53,8 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#" style="font-size:16px;">moments captured</a>
+                            <a href="#" id="moments">moments captured</a>
+                            <!-- Use dynamic tabs. https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_tab&stacked=h -->
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -63,52 +65,123 @@
             </div>
         </nav>
 
-        <div id="blog1" class="container">
+        <div id="test1" class="container">
+            <!-- Break pane with context -->
+            <br><br>
             <h1>test 1</h1>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>    
         </div>
-        <div id="blog2" class="container">
+        <div id="test2" class="container">
+            <!-- Break pane with context -->
+            <br><br>
             <h1>test 2</h1>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
         </div>
-        <div id="blog3" class="container">
+        <div id="test3" class="container">
+            <!-- Break pane with context -->
+            <br><br>
             <h1>test 3</h1>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
-            <p>test spacing</p> <br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
+            <p> test space</p><br>
         </div>
+        
+        <script>
+            $(document).ready(function(){
+                // Add scrollspy to <body>
+                $('body').scrollspy({target: ".navbar", offset: 50});   
 
+                // Add smooth scrolling on all links inside the navbar
+                $("#myNavbar a").on('click', function(event) {
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function(){
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    }  // End if
+                });
+            });
+        </script>
+        
     </body>
 
 </html>
