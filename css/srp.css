@@ -12,5 +12,10 @@
 .navbar {
     background-color: #2d2d30;
     letter-spacing: 2px;
-    opacity: 0.9;
+    opacity: 0.88;
 }
+
+.carousel-control, .carousel-control.left, .carousel-control.right  {
+background-color:none;
+background-image:none;
+color: #333;
