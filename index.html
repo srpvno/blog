@@ -44,6 +44,7 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: 18px;">365x <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu">
+                                    <a tabindex="-1" class="a09052018" href="#a09052018">ambedo</a>
                                     <a tabindex="-1" class="a08302018" href="#a08302018">repeat</a>
                                 </li>
                             </ul>
@@ -60,7 +61,27 @@
             </div>
         </nav>
         <!-- ==================CONTENT================= -->
-      
+        <div id="a09052018" class="container" style="border:10px solid #cecece; margin-top: 120px; padding: 38px; border-radius: 50px;">
+            <!-- Break pane with context -->
+            <h1>ambedo | 09052018</h1>
+            <hr>
+            <p> I posted the ambedo video around summer. Hoping it would grab at least some traction to the album. Just enough to have a few critics hear my side of the story. <br><br>
+
+                Because both sides can be very different. <br><br>
+
+                For me, ambedo was about spontaneity in the moment. Being who you want to be during that one deep trance you have when you look at something beautiful or playing back one of those unforgettable thoughts. It was about being vulnerable with the music and venting out everything I felt during those multiple 3 a.m. sessions. <br><br>
+
+                Because that's what they were. <br><br>
+
+                But more so, ambedo is a story. My story. From my point of view. Each one of us carries an alter ego. Whether we believe in it or not. And at times, although contradictory and counter-intuitive, there are times where I feel that they are the same thing. Or at least everyone pretends they're to be separate entities. I've noticed times when I'm constantly chasing for something. Unsure as to where it would take me. Knowing that deep inside, it feels like the right path even though the fear of uncertainty revolves around it. <br><br>
+
+                And the path forward never feels right when all we do is go up. And as we all struggle to climb the same ladder, for some, taking one step back is like crashing down into an abyss. When you're so used to that feeling, it's so easy to feel down. <br><br>
+
+                And that's where ambedo truly comes in. In the moments of doubt. Struggle. And pure vulnerability. <br><br>
+
+                And the deeper it sinks in, the easier it is to let gravity do the rest of the work for you.</p><br>
+        </div>
+
         <div id="a08302018" class="container" style="border:10px solid #cecece; margin-top: 120px; padding: 38px; border-radius: 50px;">
             <!-- Break pane with context -->
             <h1>repeat | 08302018</h1>
@@ -74,7 +95,7 @@
 
                 And that's the feeling I love the most. Playing it on repeat.</p><br>
         </div>
-        
+
         <script>
             // Script for SCROLLSPY
             $(document).ready(function(){
@@ -82,7 +103,7 @@
                 $('body').scrollspy({target: ".navbar", offset: 50});   
 
                 // Add smooth scrolling on all links inside the navbar
-                $("#myNavbar a.a08302018").on('click', function(e) {
+                $("#myNavbar a").on('click', function(e) {
                     // Make sure this.hash has a value before overriding default behavior
                     if (this.hash !== "") {
                         // Prevent default anchor click behavior
@@ -92,7 +113,7 @@
                         var hash = this.hash;
 
                         // Using jQuery's animate() method to add smooth page scroll
-                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        // The optional number (700) specifies the number of milliseconds it takes to scroll to the specified area
                         $('html, body').animate({
                             scrollTop: $(hash).offset().top
                         }, 700, function(){
